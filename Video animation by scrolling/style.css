@@ -1,0 +1,10 @@
+body {
+    height: 300vh; /* Set body height to 300 viewport heights */
+    margin: 0;
+}
+
+#video {
+    width: 100%;
+  position: fixed;
+    height: 100vh; /* Set height to viewport height */
+}
