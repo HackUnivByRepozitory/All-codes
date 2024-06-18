@@ -1,0 +1,49 @@
+<div id="menu">
+    <p id="controls">&#x2261;</p>
+    <div id="showhide">
+      <hr>
+      <p><label for="numbered">numbered:</label> <input type="checkbox" id="numbered"></p>
+      <p><label for="level">level:</label> <select id="level">
+          <option value="1" selected>1.5 x 1.5</option>
+          <option value="2">2.5 x 1.5</option>
+          <option value="3">2.5 x 2.5</option>
+          <option value="4">3.5 x 2.5</option>
+          <option value="5">3.5 x 3.5</option>
+        </select></p>
+      <p class="center"><button type="button" id="instructions">instructions</button></p>
+      <p class="center"><button type="button" id="start">start game</button></p>
+    </div> <!-- showhide -->
+  </div> <!-- menu -->
+  <div id="splash">YOU WIN!</div>
+  <div class="explic" id="explic1">
+    <p>The goal of this game is to re-organize the pieces to reproduce the initial configuration.</p>
+    <p>The initial configuration has one row of square 1 x 1 pieces on the right and bottom edges, and
+      2 x 2 pieces on the rest of the surface of the game.</p>
+    <p>Beginners should start with the un-numbered version. When you solve it easily, try the numbered one. Much harder.</p>
+    <p class="buttons"><button type="button" class="next">next</button><button type="button" class="close">close</button></p>
+  </div>
+  <div class="explic" id="explic2">
+    <p>In this game, you move the pieces by changing their size. Every move involves two adjacent pieces, and takes
+      place in two phases. The first phase is allowed if and only if the second is possible.
+    <p>
+    <ul>
+      <li>first, you drag an edge of a piece to decrease one dimension, height or width, and thus create a hole</li>
+      <li>then, this hole must be exactly filled by increasing <span class="highligh">the other dimension</span>, width
+        or height, of a neighboring piece</li>
+    </ul>
+    <p>You can find a legal movement by hovering the mouse cursor over the edges of the pieces. Red and green dashed
+      lines indicate if this edge may legally be moved.
+      When the line is green, press the left mouse button, and hold it while moving the edge up to the or one of the
+      white lines. Then release the button, you are done with the first phase.</p>
+    <p>Most times, there is only one possibility for the second part of the movement. It will take place automatically.
+    </p>
+    <p>In some cases, you will be asked which square to use to fill the hole. Just click one of them.</p>
+  
+    <p class="buttons"><button type="button" class="next">next</button><button type="button" class="close">close</button></p>
+  </div>
+  <div class="explic" id="explic3">
+    <p>When the game starts, the original position is displayed. Click the puzzle once to scramble the pieces.</p>
+    <p>Then… Have fun!</p>
+  
+    <p class="buttons"><button type="button" class="close">close</button></p>
+  </div>
